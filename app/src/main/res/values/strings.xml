@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">TEST</string>
+    <!-- login -->
+    <string name="login">用户登录</string>
+    <string name="tvUid">账 号：</string>
+    <string name="tvPwd">密 码：</string>
+    <string name="btnLogin">登录</string>
+    <string name="btnReg">注册</string>
+    <string name="cbRemember">记住我</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- menu -->
+    <string name="btnAdd">添加新闻</string>
+    <string name="btnDelete">删除新闻</string>
+    <string name="btnDel">删除</string>
+    <string name="btnQuery">快速查询</string>
+    <string name="btnModify">修改新闻</string>
+    <string name="btnView">查看</string>
+    <string name="btnOk">确认</string>
+    <string name="btnCancel">取消</string>
+    <string name="dialog_message">确认删除此条新闻吗？</string>
+    <!-- detail -->
+    <string name="btnMod">更新</string>
+    <string name="tvTitle">标题</string>
+    <string name="tvType">类型</string>
+    <string name="hintNewsContent">编辑新闻...</string>
+    <string name="btnBack">返回</string>
+    <string name="title_activity_query">QueryActivity</string>
+    <!-- query -->
+    <string name="btnQuery1">查询</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+        <string-array name="day">
+        <item>
+            --请选择--
+        </item>
+            <item>
+            星期一
+        </item>
+            <item>
+            星期二
+        </item>
+            <item>
+            星期三
+        </item>
+            <item>
+            星期四
+        </item>
+            <item>
+            星期五
+        </item>
+            <item>
+            星期六
+        </item>
+            <item>
+            星期日
+        </item>
+        </string-array>
+
+        <string-array name="time">
+        <item>
+            --请选择--
+        </item>
+            <item>
+            1-2节课
+        </item>
+            <item>
+            3-4节课
+        </item>
+            <item>
+            5-6节课
+        </item>
+            <item>
+            7-8节课
+        </item>
+            <item>
+            9-10节课
+        </item>
+        </string-array>
+
+
+</resources>

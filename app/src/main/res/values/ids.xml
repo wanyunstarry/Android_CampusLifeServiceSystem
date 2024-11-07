@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selected_day" type="id" />
+    <item name="selected_time" type="id" />
+    <item name="subject" type="id" />
+    <item name="save_activity" type="id" />
+    <item name="close_activity" type="id" />
+</resources>
