@@ -91,16 +91,6 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        Button weather=(Button)findViewById(R.id.weather_button);
-        weather.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuActivity.this, WeatherActivity.class);
-                Log.v(TAG,"starting weatheractivity");
-                startActivity(intent);
-            }
-        });
 
         Button course=(Button)findViewById(R.id.course_button);
         course.setOnClickListener(new View.OnClickListener(){
@@ -111,14 +101,5 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        Button alarm=(Button)findViewById(R.id.alarm_button);
-        alarm.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuActivity.this, AlarmManagerActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }
