@@ -12,7 +12,7 @@
         android:label="校园生活服务系统"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Wxs20"
+        android:theme="@style/Theme.wanyun"
         tools:targetApi="31">
 
         <activity android:name=".DialogModal"

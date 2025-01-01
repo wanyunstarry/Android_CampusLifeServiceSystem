@@ -1,4 +1,4 @@
-package com.example.wxs20.bean;
+package com.example.app.bean;
 
 public class Classes {
 

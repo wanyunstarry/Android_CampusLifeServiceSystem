@@ -1,4 +1,4 @@
-package com.example.wxs20;
+package com.example.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,9 +19,10 @@ import android.view.View;
 import android.widget.GridLayout;
 import android.widget.TextView;
 
-import com.example.wxs20.bean.Classes;
-import com.example.wxs20.utils.DBHelper;
-import com.example.wxs20.utils.util;
+import com.example.app.bean.Classes;
+import com.example.app.utils.DBHelper;
+import com.example.app.utils.util;
+import com.example.app.R;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -241,7 +242,6 @@ public class CourseActivity extends AppCompatActivity implements View.OnTouchLis
                 // 参数7：orderBy ：相当于 select  ***from ？？  where&& group by ...having %%% order by@@语句中的@@ 部分，如： personid desc（按person 降序）
 //        Cursor cursor = db.query(TABLE_NAME, null, "c_id=?", new String[]{String.valueOf(textView.getId())}, null, null, null);
                 Cursor cursor = db.query(TABLE_NAME, null, "c_id=?", new String[]{String.valueOf(textView.getId())}, null, null, null);
-
                 // 将游标移到开头
                 cursor.moveToFirst();
                 if (!cursor.isAfterLast()) {

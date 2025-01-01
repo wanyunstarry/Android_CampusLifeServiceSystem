@@ -1,4 +1,4 @@
-package com.example.wxs20;
+package com.example.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 

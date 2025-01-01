@@ -1,4 +1,4 @@
-package com.example.wxs20;
+package com.example.app;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;

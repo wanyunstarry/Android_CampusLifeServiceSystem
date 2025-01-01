@@ -1,4 +1,4 @@
-package com.example.wxs20.utils;
+package com.example.app.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

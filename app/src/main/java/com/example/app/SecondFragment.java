@@ -1,4 +1,4 @@
-package com.example.wxs20;
+package com.example.app;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
-import com.example.wxs20.databinding.FragmentSecondBinding;
+import com.example.app.databinding.FragmentSecondBinding;
 
 public class SecondFragment extends Fragment {
 

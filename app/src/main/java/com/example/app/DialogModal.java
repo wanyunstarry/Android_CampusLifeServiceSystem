@@ -1,4 +1,4 @@
-package com.example.wxs20;
+package com.example.app;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import com.example.wxs20.utils.DBHelper;
-import com.example.wxs20.utils.util;
+import com.example.app.utils.DBHelper;
+import com.example.app.utils.util;
 
 public class DialogModal extends Activity {
     Button close_activity;
@@ -122,11 +122,7 @@ public class DialogModal extends Activity {
 
         // 通过DBHelper类获取一个读写的SQLiteDatabase对象
         SQLiteDatabase db=dbHelper.getWritableDatabase();
-        // 修改数据
-        // 参数1：tablename
-        // 参数2：修改的值
-        // 参数3：修改的条件（SQL where语句）
-        // 参数4：表示whereClause语句中的表达式的占位符参数列表，这些字符串会替换where条件中?
+
         db.update(TABLE_NAME,contentValues,"c_id=?", a);
 
         // 释放连接

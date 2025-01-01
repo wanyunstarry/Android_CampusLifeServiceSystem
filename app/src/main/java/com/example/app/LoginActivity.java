@@ -1,20 +1,11 @@
-package com.example.wxs20;
-import java.security.MessageDigest;
-import java.util.ArrayList;
-import java.util.HashMap;
-
+package com.example.app;
 import android.app.Activity;
 import android.content.Intent;
-
-import android.preference.PreferenceManager;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends Activity {

@@ -1,4 +1,4 @@
-package com.example.wxs20.utils;
+package com.example.app.utils;
 
 import android.content.ContentValues;
 import android.content.Context;

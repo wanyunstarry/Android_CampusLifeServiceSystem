@@ -1,4 +1,4 @@
-package com.example.wxs20;
+package com.example.app;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.widget.TextView;
 
-import com.example.wxs20.R;
+import com.example.app.R;
 
 public class Detail extends Activity {
 
